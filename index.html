@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>CRUD By JavaSript With Firebase</h1>
+    <form action="#" id="dataForm">
+        <input type="hidden" id="id">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Enter Age">
+        </div>
+        <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" id="city" placeholder="Enter City">
+        </div>
+        <button type="submit" id="btnSubmit"><ion-icon name="save-outline"></ion-icon>Save</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- <tr>
+                <td>1</td>
+                <td>Dinesh</td>
+                <td>21</td>
+                <td>Gingee</td>
+                <td><button type="button" class="btnEdit"><ion-icon name="create-outline"></ion-icon>Edit</button></td>
+                <td><button type="button" class="btnDelete"><ion-icon name="trash-outline"></ion-icon>Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Lokesh</td>
+                <td>19</td>
+                <td>Gingee</td>
+                <td><button type="button" class="btnEdit"><ion-icon name="create-outline"></ion-icon>Edit</button></td>
+                <td><button type="button" class="btnDelete"><ion-icon name="trash-outline"></ion-icon>Delete</button></td>
+            </tr> -->
+        </tbody>
+    </table>
+    <script src="js/script.js" type="module"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

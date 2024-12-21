@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+}
+h1{
+    text-align: center;
+    margin: 20px 0px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    color: crimson;
+}
+form,table{
+    width: 30vw;
+    margin: 0 auto;
+    padding: 20px;
+}
+form{
+    background-color: rgb(128, 66, 0);
+    color: white;
+    border-radius: 5px;
+}
+form .form-group{
+    display: flex;
+    flex-direction: column;
+}
+.form-group label{
+    font-size: 17px;
+}
+.form-group input{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color:rgb(216, 209, 145);
+    margin: 10px 0px;
+}
+input::placeholder{
+    color:darkblue;
+}
+button{
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+    font-size: 15px;
+    align-items: center;
+}
+form button{
+    background-color: rgb(28, 0, 139);
+    color: white;
+}
+.btnEdit{
+    background-color: green;
+    color: white;
+}
+.btnDelete{
+    background-color: red;
+    color: white;
+}
+
+table{
+    margin-top: 50px;
+    width: 50vw;
+    border: 2px solid teal;
+    border-collapse: collapse;
+}
+th{
+    background-color: teal;
+    color: white;
+}
+th,td{
+    border: solid 2px rgb(255, 255, 255);
+    padding: 5px 20px;
+}
+tr{
+    background-color: rgb(221, 219, 219);
+}
